@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaushal Raj | Full-Stack Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+
+    <header class="sticky top-0 z-50 bg-opacity-95 backdrop-blur-sm shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="#hero" class="text-xl font-bold text-white hover:text-[#238636]">Kaushal Raj</a>
+                
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#summary" class="text-sm font-medium hover:text-[#238636] transition duration-200">Summary</a>
+                    <a href="#skills" class="text-sm font-medium hover:text-[#238636] transition duration-200">Skills</a>
+                    <a href="#experience" class="text-sm font-medium hover:text-[#238636] transition duration-200">Experience</a>
+                    <a href="#projects" class="text-sm font-medium hover:text-[#238636] transition duration-200">Projects</a>
+                    <a href="#contact" class="text-sm font-medium hover:text-[#238636] transition duration-200">Contact</a>
+                </nav>
+
+                <button id="mobile-menu-button" class="md:hidden p-2 rounded-md hover:bg-[#161b22] focus:outline-none focus:ring-2 focus:ring-[#238636]">
+                    <i data-lucide="menu" class="w-6 h-6 text-[#c9d1d9]"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div id="mobile-menu" class="hidden md:hidden px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-[#161b22] border-t border-[#30363d]">
+            <a href="#summary" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-[#238636]/30">Summary</a>
+            <a href="#skills" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-[#238636]/30">Skills</a>
+            <a href="#experience" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-[#238636]/30">Experience</a>
+            <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-[#238636]/30">Projects</a>
+            <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-[#238636]/30">Contact</a>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="hero" class="pt-20 flex items-center justify-center text-center">
+            <div class="space-y-6">
+                <img src="./Asset/my.jpg" alt="Kaushal Raj Profile Picture" class="w-32 h-32 mx-auto rounded-full object-cover border-4 border-[#238636] shadow-2xl">
+                
+                <h1 class="text-5xl sm:text-7xl font-extrabold text-white tracking-tight">
+                    Hi, I'm <span class="text-[#238636]">Kaushal Raj</span>
+                </h1>
+                <p class="mt-3 text-xl sm:text-2xl text-[#8b949e]">
+                    Final-year IT Student | Full-Stack Developer 
+                </p>
+                <div class="pt-8">
+                    <a href="#projects" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg shadow-sm text-white bg-[#238636] hover:bg-[#2eaa45] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#238636] transition duration-200">
+                        View My Work
+                        <i data-lucide="arrow-right" class="w-5 h-5 ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="summary" class="py-12">
+            <h2 class="text-3xl font-bold section-header">Summary</h2>
+            <div class="card p-6 rounded-xl">
+                <p class="text-lg leading-relaxed">
+                    As a Final-year Information Technology student, I bring hands-on experience in building full-stack web applications using the MERN Stack (React, Node.js, Express.js, and MongoDB), along with proficiency in Java and Flutter. I focus on developing scalable,responsive solutions that prioritize clean code and performance. I am actively enhancing my real-world development expertise through personal projects, ensuring a smooth and highly engaging user experience.
+                </p>
+            </div>
+        </section>
+        
+        <section id="skills" class="py-12">
+            <h2 class="text-3xl font-bold section-header">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="card p-6 rounded-xl">
+                    <h3 class="text-xl font-semibold mb-3 flex items-center text-[#238636]"><i data-lucide="code" class="w-5 h-5 mr-2"></i>Languages</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-[#238636]/30 text-white text-sm rounded-full">JavaScript</span>
+                        <span class="px-3 py-1 bg-[#238636]/30 text-white text-sm rounded-full">Java</span>
+                        <span class="px-3 py-1 bg-[#238636]/30 text-white text-sm rounded-full">SQL</span>
+                        <span class="px-3 py-1 bg-[#238636]/30 text-white text-sm rounded-full">C/C++</span>
+                        <span class="px-3 py-1 bg-[#238636]/30 text-white text-sm rounded-full">Dart</span>
+                    </div>
+                </div>
+
+                <div class="card p-6 rounded-xl">
+                    <h3 class="text-xl font-semibold mb-3 flex items-center text-[#238636]"><i data-lucide="layers-3" class="w-5 h-5 mr-2"></i>Frameworks & Libraries</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-[#238636]/30 text-white text-sm rounded-full">React.js</span>
+                        <span class="px-3 py-1 bg-[#238636]/30 text-white text-sm rounded-full">Node.js</span>
+                        <span class="px-3 py-1 bg-[#238636]/30 text-white text-sm rounded-full">Express.js</span>
+                        <span class="px-3 py-1 bg-[#238636]/30 text-white text-sm rounded-full">MongoDB</span>
+                        <span class="px-3 py-1 bg-[#238636]/30 text-white text-sm rounded-full">Flutter</span>
+                        <span class="px-3 py-1 bg-[#238636]/30 text-white text-sm rounded-full">RESTful APIs</span>
+                    </div>
+                </div>
+
+                <div class="card p-6 rounded-xl">
+                    <h3 class="text-xl font-semibold mb-3 flex items-center text-[#238636]"><i data-lucide="wrench" class="w-5 h-5 mr-2"></i>Tools & Version Control</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-[#238636]/30 text-white text-sm rounded-full">Git/GitHub/GitLab</span>
+                        <span class="px-3 py-1 bg-[#238636]/30 text-white text-sm rounded-full">MySQL</span>
+                        <span class="px-3 py-1 bg-[#238636]/30 text-white text-sm rounded-full">Leadership & Collaboration</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="experience" class="py-12">
+            <h2 class="text-3xl font-bold section-header">Experience</h2>
+            <div class="card p-6 rounded-xl">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-white">Web Developer Intern</h3>
+                        <p class="text-lg text-[#8b949e]">Ardent Software | Remote</p>
+                    </div>
+                    <p class="text-sm font-medium text-[#238636] mt-2 md:mt-0">June 2024 - August 2024</p>
+                </div>
+                <ul class="list-disc list-inside space-y-2 text-[#c9d1d9] pl-4">
+                    <li>Built 2+ responsive web pages using Java, demonstrating core development skills.</li>
+                    <li>Resolved 6+ cross-device layout issues, significantly improving UI consistency across various platforms.</li>
+                    <li>Executed code cleanup initiatives, resulting in an improved page load time by approximately 25%.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="py-12">
+            <h2 class="text-3xl font-bold section-header">Key Projects</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                
+                <div class="card p-6 rounded-xl">
+                    <h3 class="text-2xl font-semibold text-white mb-2">NextGen Nexus</h3>
+                    <p class="text-sm font-medium text-[#238636] mb-4">MERN Stack | AI Integration | JWT Auth</p>
+                    <p class="text-[#c9d1d9] mb-4">A comprehensive job portal featuring dual-role authentication, an AI-powered resume builder, and video resume uploads.</p>
+                    <ul class="list-disc list-inside space-y-2 text-[#c9d1d9] pl-4">
+                        <li>Achieved 100% UI performance/accessibility (Chrome Lighthouse).</li>
+                        <li>Boosted user engagement by 30% through fully responsive design and interactive features.</li>
+                        <li>Implemented secure JWT authentication and AI-driven job description generation to improve relevance.</li>
+                    </ul>
+                </div>
+
+                <div class="card p-6 rounded-xl">
+                    <h3 class="text-2xl font-semibold text-white mb-2">Hotel Booking Web App</h3>
+                    <p class="text-sm font-medium text-[#238636] mb-4">JavaScript, HTML, CSS</p>
+                    <p class="text-[#c9d1d9] mb-4">A responsive front-end interface for hotel booking, including category filtering, room details display, and client-side search functionality.</p>
+                    <ul class="list-disc list-inside space-y-2 text-[#c9d1d9] pl-4">
+                        <li>Achieved sub-2.5 second load times through enhanced image handling and semantic HTML structure.</li>
+                        <li>Enhanced SEO score and UX performance with structured HTML and accessible UI elements.</li>
+                        <li>Features responsive design for optimal viewing across all devices.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-12 text-center">
+            <h2 class="text-3xl font-bold section-header mx-auto">Get In Touch</h2>
+            <p class="text-lg text-[#8b949e] mb-8">
+                I am actively seeking full-time opportunities starting in 2026. Let's connect!
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-8">
+                
+                <div class="flex items-center space-x-3 card p-4 rounded-xl">
+                    <i data-lucide="phone" class="w-6 h-6 contact-icon"></i>
+                    <span class="text-white">+91 8409513336</span>
+                </div>
+
+                <div class="flex items-center space-x-3 card p-4 rounded-xl">
+                    <i data-lucide="mail" class="w-6 h-6 contact-icon"></i>
+                    <span class="text-white">kaushalraj1822@gmail.com</span>
+                </div>
+
+                <div class="flex items-center space-x-3 card p-4 rounded-xl">
+                    <i data-lucide="map-pin" class="w-6 h-6 contact-icon"></i>
+                    <span class="text-white">Sasaram, Rohtas, Bihar</span>
+                </div>
+                
+            </div>
+            
+            <div class="mt-8">
+                <a href="#" target="_blank" class="inline-flex items-center text-lg text-[#238636] hover:text-white transition duration-200">
+                    <i data-lucide="github" class="w-6 h-6 mr-2"></i>
+                    Connect on GitHub (Link Placeholder)
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-6 mt-16 border-t border-[#30363d]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-[#8b949e]">
+            &copy; 2025 Kaushal Raj. Developed with HTML, Tailwind CSS, and JavaScript.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

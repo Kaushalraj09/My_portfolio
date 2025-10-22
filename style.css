@@ -1,0 +1,68 @@
+/* Custom styles for professional, dark theme */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #c9d1d9; /* Light gray text */
+    scroll-behavior: smooth;
+    
+    /* Global Background Image and Settings */
+    background-image: url('./Asset/my.jpg'); /* Your professional photo */
+    background-color: #0d1117; /* Fallback base color */
+    background-size: cover;
+    background-position: center top; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+
+/* MODIFIED: Reduced opacity of main content wrapper to let the background green show through more (0.55) */
+main {
+    background-color: rgba(0, 0, 0, 0.55); /* 55% black overlay */
+    padding-top: 2.5rem; 
+    padding-bottom: 2.5rem; 
+    max-width: 7xl; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* MODIFIED: Reduced opacity on header and footer for greater background visibility */
+header {
+    background-color: rgba(13, 17, 23, 0.85); /* Slightly more transparent header */
+}
+footer {
+    background-color: rgba(13, 17, 23, 0.85); /* Slightly more transparent footer */
+}
+
+.section-header {
+    border-bottom: 2px solid #238636; /* GitHub green underline */
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+.card {
+    background-color: #161b22; /* Darker card background */
+    border: 1px solid #30363d;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    /* MODIFIED: Green glow shadow for a 'greetified' effect */
+    box-shadow: 0 10px 15px rgba(35, 134, 54, 0.4), 0 0 10px rgba(35, 134, 54, 0.7);
+}
+.contact-icon {
+    color: #238636;
+}
+/* Mobile menu toggle animation */
+.mobile-menu-open {
+    display: block !important;
+}
+
+/* Clean up #hero styles since the background is now on the body */
+#hero {
+    position: relative; 
+    background-color: transparent; 
+    min-height: 80vh;
+    z-index: 10;
+}
+#hero::before {
+    content: none; 
+}

@@ -1,0 +1,57 @@
+Kaushal Raj | Full-Stack Developer Portfolio
+Overview
+This repository hosts the personal portfolio of Kaushal Raj, a final-year Information Technology student and aspiring Full-Stack Web Developer specializing in the MERN Stack (MongoDB, Express.js, React.js, Node.js).
+
+The design is built on a high-contrast dark theme optimized for readability, featuring a unique, fixed background image effect that subtly personalizes the entire website.
+
+Key Features
+Custom Background Effect: Your professional photo is used as a full-page, fixed background image (background-attachment: fixed), with a semi-transparent dark overlay over the main content area to ensure maximum text readability.
+
+Responsive Design: Fully responsive layout using Tailwind CSS ensures optimal viewing across all devices (desktop, tablet, and mobile).
+
+Green Accent Scheme: Uses a prominent green accent color (#238636) for headings, links, buttons, and a professional glow effect on card hovers, creating a high-contrast, professional aesthetic.
+
+Modular Sections: Clearly organized sections covering:
+
+Hero: Personalized introduction with profile picture.
+
+Summary: Professional overview of skills and focus areas.
+
+Technical Skills: Detailed list of languages, frameworks, and tools (MERN, Java, Flutter, Git, etc.).
+
+Experience: Highlights professional internships and roles.
+
+Projects: Showcase of key applications (NextGen Nexus, Hotel Booking App).
+
+Contact: Centralized contact information.
+
+Tech Stack
+Front-end: HTML5, Tailwind CSS, JavaScript
+
+Design/Styling: Custom CSS for dark theme and background effects
+
+Icons: Lucide Icons (lightweight, open-source vector icons)
+
+Font: Google Fonts (Inter)
+
+Setup Instructions
+This portfolio is a purely static website and can be deployed directly via any standard web server or hosted on platforms like GitHub Pages, Netlify, or Vercel.
+
+Clone the Repository:
+
+Bash
+
+git clone [YOUR_REPO_URL]
+Navigate to the Project Directory:
+
+Bash
+
+cd My_portfolio
+Run Locally (e.g., using a Live Server extension): Open main.html directly in your web browser.
+
+Customization
+Change Accent Color: Modify all instances of the color code #238636 (green) and its transparent version rgba(35, 134, 54, 0.4) in the <style> block of main.html.
+
+Update Background Image: Replace ./Asset/my.jpg in the body CSS selector with your preferred image path.
+
+Adjust Readability: To make the background image show through more (or less), change the opacity value (0.55) in the main CSS selector: background-color:rgba(0, 0, 0, 0.55);.
